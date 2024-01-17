@@ -19,9 +19,7 @@ public class ComandoItemMenu {
     }
 
     public void exibirInformacoes() {
-        // ComandoExibirInformacoesItemMenu comando = new ComandoExibirInformacoesItemMenu(this);
-        // comando.executar();
-        // Implementação específica para exibir informações sobre um ItemMenu
+        
         System.out.println("Nome: " + nome);
         System.out.println("Preço: " + preco);
         System.out.println("Quantidade: " + quantidade);
