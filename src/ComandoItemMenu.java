@@ -1,5 +1,5 @@
-/ Classe ItemMenu
-public class ItemMenu {
+// Classe ItemMenu
+public class ComandoItemMenu {
     // Atributos
     private String nome;
     private double preco;
