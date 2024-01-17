@@ -1,5 +1,6 @@
 import java.util.LinkedList;
 import java.util.Queue;
+
 // Classe Atendente
 public class Atendente {
     Queue<Comando> filaComandos = new LinkedList<>();
