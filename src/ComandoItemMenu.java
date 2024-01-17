@@ -21,7 +21,7 @@ public class ComandoItemMenu {
 
     // Métodos para exibir informações do item do menu
     public void exibirInformacoes() {
-        ComandoExibirInformacoesItemMenu comando = new ComandoExibirInformacoesItemMenu(this);
+        ComandoExibirInformacoesItemMenu comando = new ComandoExibirInformacoesComandoItemMenu(this);
         comando.executar();
     }
 

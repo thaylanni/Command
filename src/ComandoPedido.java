@@ -1,10 +1,10 @@
-class ComandoAdicionarItem implements Comando {
+class ComandoPedido implements Comando {
 
     private Pedido pedido;
     private ItemMenu itemMenu;
     private int quantidade;
 
-    public ComandoAdicionarItem(Pedido pedido, ItemMenu itemMenu, int quantidade) {
+    public ComandoPedido(Pedido pedido, ItemMenu itemMenu, int quantidade) {
         this.pedido = pedido;
         this.itemMenu = itemMenu;
         this.quantidade = quantidade;
